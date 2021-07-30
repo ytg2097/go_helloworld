@@ -12,7 +12,7 @@ func main() {
 	// int64 = long
 	// uintptr = 指针  随操作系统  32位  64位
 	// byte
-	// rune = char  长度32位  读作  入呢
+	// rune = char  长度32位  读作  入呢  rune是四字节unicode编码
 	// float32 float64  浮点
 	// 复数complex64 实部32 虚部32 complex128   实部64  虚部64   通常使用complex128
 	// todo 复数需要补课

@@ -8,13 +8,13 @@ func main() {
 
 }
 
-func switchNoCondition(ab string) int{
+func switchNoCondition(ab string) int {
 
 	// switch可以不写表达式
 	// 在case中写表达式
 	// 可以理解为换了语法的 if else
-	switch  {
-	case ab =="c":
+	switch {
+	case ab == "c":
 		return 1
 	}
 	return 2
@@ -34,7 +34,6 @@ func eval(abc string) int {
 		result = 1000
 		panic("ssss")
 	}
-
 
 	return result
 }
